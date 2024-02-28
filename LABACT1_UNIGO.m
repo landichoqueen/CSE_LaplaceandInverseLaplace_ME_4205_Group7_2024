@@ -7,6 +7,7 @@ close all
 
 syms s
 
+
 f21 = (8 - 3*s + s^2) / (s^3);
 F21 = ilaplace(f21);
 pretty(F21)

@@ -2,11 +2,11 @@
 clear
 clc
 close all
+syms s
 
 %% Inverse Laplace Transform
 
 syms s
-
 
 f21 = (8 - 3*s + s^2) / (s^3);
 F21 = ilaplace(f21);
